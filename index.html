@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - bailee-dev-david</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- author: Bailee
+ A page to display a game of a fairy escaping a garden.
+
+To Do:
+- bs5 navigation bar
+- burger menu navigation, links to source code, other apps
+- FIRST CONTENT ROW: name of the game & instructions
+- SECOND CONTENT ROW: make a "game piece" move, app changes state, result happens
+- LAST CONTENT ROW: footer, bottom of page, logical end
+- NEED A GAME RESET ON PAGE
+- -->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<div class="container-fluid">
+ 
+<!--NAVIGATION BAR-->
+  <nav class="navbar navbar-expand-sm navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">How to Play?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/baileestrait">GitHub</a>
+        </li>
+      </div>
+    </div>
+      </nav>
+    
+<!-- FIRST CONTENT ROW -->
+  <div class="container-fluid">
+    <div class="row">
+      <h3><strong>ESCAPE THE GARDEN!</strong></h3>
+      <h6> <strong>Click and drag </strong> the fairy to escape from the garden! </h6>
+      <div>
+<!-- RESET BUTTON -->
+      <button id="reset"> RESET </button>
+<!--  SECOND CONTENT ROW  -->
+    <div>
+    <img id= "bluefairy" class src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e67d237d-4445-485e-87e5-c8862c8e62b0/dhc49y6-1eff7e6c-95f1-4ec1-a5b5-9ddc76749783.png/v1/fill/w_1920,h_2208,q_80,strp/fairy_of_rain_by_aliceapple_dhc49y6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjIwOCIsInBhdGgiOiJcL2ZcL2U2N2QyMzdkLTQ0NDUtNDg1ZS04N2U1LWM4ODYyYzhlNjJiMFwvZGhjNDl5Ni0xZWZmN2U2Yy05NWYxLTRlYzEtYTViNS05ZGRjNzY3NDk3ODMucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.OK4tIGcoaoCNx_HAdEbsZOYpX5v28MSjZt3_ujh3OW0" alt="blue fairy">
+        </div>
+    </div>
+    </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js'></script><script  src="scripts/script.js"></script>
+
+</body>
+</html>
